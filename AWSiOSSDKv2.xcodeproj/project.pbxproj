@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		32F016021CEB899D00B97DF8 /* AWSosXNurep */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 32F016051CEB899D00B97DF8 /* Build configuration list for PBXAggregateTarget "AWSosXNurep" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = AWSosXNurep;
-			productName = AWSosXNurep;
-		};
 		CE4DFA461C6D635C00376441 /* Documentation */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = CE4DFA471C6D635C00376441 /* Build configuration list for PBXAggregateTarget "Documentation" */;
@@ -5611,9 +5601,6 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Amazon Web Services";
 				TargetAttributes = {
-					32F016021CEB899D00B97DF8 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
 					CE0D416C1C6A66E5006B91B5 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -5864,7 +5851,6 @@
 				CE9DEA951C6A7F460060793F /* AWSSQSTests */,
 				CE5604DA1C6BC9B200B4E00B /* AWSSQSUnitTests */,
 				CE4DFA461C6D635C00376441 /* Documentation */,
-				32F016021CEB899D00B97DF8 /* AWSosXNurep */,
 			);
 		};
 /* End PBXProject section */
@@ -7361,20 +7347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		32F016031CEB899D00B97DF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		32F016041CEB899D00B97DF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		CE0D41631C6A66AA006B91B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9467,14 +9439,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32F016051CEB899D00B97DF8 /* Build configuration list for PBXAggregateTarget "AWSosXNurep" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32F016031CEB899D00B97DF8 /* Debug */,
-				32F016041CEB899D00B97DF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		CE0D41571C6A66A9006B91B5 /* Build configuration list for PBXProject "AWSiOSSDKv2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
