@@ -25,6 +25,7 @@
 		323AC36F1CEA6DC7002EA50B /* FTWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC36D1CEA6DC6002EA50B /* FTWDevice.m */; };
 		323AC3721CEA6E2C002EA50B /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 323AC3701CEA6E2C002EA50B /* NSString+MD5.h */; };
 		323AC3731CEA6E2C002EA50B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC3711CEA6E2C002EA50B /* NSString+MD5.m */; };
+		3297A2431CEBC7D100FF02FD /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 3297A2421CEBC7D100FF02FD /* LICENSE.md */; };
 		CE0D41701C6A66E5006B91B5 /* AWSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D416F1C6A66E5006B91B5 /* AWSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE0D417C1C6A66E5006B91B5 /* AWSCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0D417B1C6A66E5006B91B5 /* AWSCoreTests.m */; };
 		CE0D42231C6A673E006B91B5 /* AWSCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D41851C6A673E006B91B5 /* AWSCredentialsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1377,6 +1378,7 @@
 		323AC36D1CEA6DC6002EA50B /* FTWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWDevice.m; sourceTree = "<group>"; };
 		323AC3701CEA6E2C002EA50B /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		323AC3711CEA6E2C002EA50B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		3297A2421CEBC7D100FF02FD /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		CE0D416D1C6A66E5006B91B5 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0D416F1C6A66E5006B91B5 /* AWSCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSCore.h; sourceTree = "<group>"; };
 		CE0D41711C6A66E5006B91B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2603,6 +2605,7 @@
 				323AC36D1CEA6DC6002EA50B /* FTWDevice.m */,
 				323AC3701CEA6E2C002EA50B /* NSString+MD5.h */,
 				323AC3711CEA6E2C002EA50B /* NSString+MD5.m */,
+				3297A2421CEBC7D100FF02FD /* LICENSE.md */,
 			);
 			name = FTWDevice;
 			sourceTree = "<group>";
@@ -6357,6 +6360,7 @@
 				CE0D42851C6A673E006B91B5 /* AWSURLResponseSerialization.m in Sources */,
 				CE0D429E1C6A673E006B91B5 /* AWSUICKeyChainStore.m in Sources */,
 				CE0D42981C6A673E006B91B5 /* AWSTMDiskCache.m in Sources */,
+				3297A2431CEBC7D100FF02FD /* LICENSE.md in Sources */,
 				CE0D42571C6A673E006B91B5 /* AWSMTLJSONAdapter.m in Sources */,
 				CE0D42281C6A673E006B91B5 /* AWSSignature.m in Sources */,
 				CE0D42701C6A673E006B91B5 /* NSObject+AWSMTLComparisonAdditions.m in Sources */,
