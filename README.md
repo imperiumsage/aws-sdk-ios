@@ -1,3 +1,11 @@
+#AWS SDK for OSX*
+
+Fork of the AWS iOS SDK that has be OSXified for interacting with S3 on OSX. Changes made primarily to the AWSCore and AWSS3 modules.
+
+I have also included [FTWDevice] (https://github.com/FTW/FTWDevice.git) as a replacement for UIDevice
+
+Lastly I have added a scheme that builds AWSCore, AWSCognito and AWSS3 in order and on run outputs the frameworks in products. 
+
 #AWS Mobile SDK for iOS
 
 ##Setting Up
