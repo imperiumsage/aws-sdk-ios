@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		32F016021CEB899D00B97DF8 /* AWSosXNurep */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 32F016051CEB899D00B97DF8 /* Build configuration list for PBXAggregateTarget "AWSosXNurep" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AWSosXNurep;
+			productName = AWSosXNurep;
+		};
 		CE4DFA461C6D635C00376441 /* Documentation */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = CE4DFA471C6D635C00376441 /* Build configuration list for PBXAggregateTarget "Documentation" */;
@@ -21,6 +31,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		323AC36E1CEA6DC7002EA50B /* FTWDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 323AC36C1CEA6DC6002EA50B /* FTWDevice.h */; };
+		323AC36F1CEA6DC7002EA50B /* FTWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC36D1CEA6DC6002EA50B /* FTWDevice.m */; };
+		323AC3721CEA6E2C002EA50B /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 323AC3701CEA6E2C002EA50B /* NSString+MD5.h */; };
+		323AC3731CEA6E2C002EA50B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC3711CEA6E2C002EA50B /* NSString+MD5.m */; };
 		CE0D41701C6A66E5006B91B5 /* AWSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D416F1C6A66E5006B91B5 /* AWSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE0D417C1C6A66E5006B91B5 /* AWSCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0D417B1C6A66E5006B91B5 /* AWSCoreTests.m */; };
 		CE0D42231C6A673E006B91B5 /* AWSCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0D41851C6A673E006B91B5 /* AWSCredentialsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1369,6 +1383,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		323AC36C1CEA6DC6002EA50B /* FTWDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWDevice.h; sourceTree = "<group>"; };
+		323AC36D1CEA6DC6002EA50B /* FTWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWDevice.m; sourceTree = "<group>"; };
+		323AC3701CEA6E2C002EA50B /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		323AC3711CEA6E2C002EA50B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		CE0D416D1C6A66E5006B91B5 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0D416F1C6A66E5006B91B5 /* AWSCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSCore.h; sourceTree = "<group>"; };
 		CE0D41711C6A66E5006B91B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2588,9 +2606,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		323AC36B1CEA6DA8002EA50B /* FTWDevice */ = {
+			isa = PBXGroup;
+			children = (
+				323AC36C1CEA6DC6002EA50B /* FTWDevice.h */,
+				323AC36D1CEA6DC6002EA50B /* FTWDevice.m */,
+				323AC3701CEA6E2C002EA50B /* NSString+MD5.h */,
+				323AC3711CEA6E2C002EA50B /* NSString+MD5.m */,
+			);
+			name = FTWDevice;
+			sourceTree = "<group>";
+		};
 		CE0D41531C6A66A9006B91B5 = {
 			isa = PBXGroup;
 			children = (
+				323AC36B1CEA6DA8002EA50B /* FTWDevice */,
 				CE0D416E1C6A66E5006B91B5 /* AWSCore */,
 				CE0D417A1C6A66E5006B91B5 /* AWSCoreTests */,
 				CE5603D31C6BC74500B4E00B /* AWSCoreUnitTests */,
@@ -4134,6 +4164,7 @@
 				CE0D425A1C6A673E006B91B5 /* AWSMTLModel+NSCoding.h in Headers */,
 				CE0D42821C6A673E006B91B5 /* AWSURLRequestSerialization.h in Headers */,
 				CE0D42881C6A673E006B91B5 /* AWSClientContext.h in Headers */,
+				323AC3721CEA6E2C002EA50B /* NSString+MD5.h in Headers */,
 				CE0D429D1C6A673E006B91B5 /* AWSUICKeyChainStore.h in Headers */,
 				CE0D42781C6A673E006B91B5 /* AWSURLSessionManager.h in Headers */,
 				CE0D42971C6A673E006B91B5 /* AWSTMDiskCache.h in Headers */,
@@ -4160,6 +4191,7 @@
 				CE0D42961C6A673E006B91B5 /* AWSTMCacheBackgroundTaskManager.h in Headers */,
 				CE0D42671C6A673E006B91B5 /* AWSmetamacros.h in Headers */,
 				CE0D42621C6A673E006B91B5 /* AWSEXTKeyPathCoding.h in Headers */,
+				323AC36E1CEA6DC7002EA50B /* FTWDevice.h in Headers */,
 				CE0D42631C6A673E006B91B5 /* AWSEXTRuntimeExtensions.h in Headers */,
 				CE0D42651C6A673E006B91B5 /* AWSEXTScope.h in Headers */,
 				CE0D42431C6A673E006B91B5 /* AWSFMDatabase+Private.h in Headers */,
@@ -5579,6 +5611,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Amazon Web Services";
 				TargetAttributes = {
+					32F016021CEB899D00B97DF8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					CE0D416C1C6A66E5006B91B5 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -5829,6 +5864,7 @@
 				CE9DEA951C6A7F460060793F /* AWSSQSTests */,
 				CE5604DA1C6BC9B200B4E00B /* AWSSQSUnitTests */,
 				CE4DFA461C6D635C00376441 /* Documentation */,
+				32F016021CEB899D00B97DF8 /* AWSosXNurep */,
 			);
 		};
 /* End PBXProject section */
@@ -6338,6 +6374,7 @@
 				CE0D42571C6A673E006B91B5 /* AWSMTLJSONAdapter.m in Sources */,
 				CE0D42281C6A673E006B91B5 /* AWSSignature.m in Sources */,
 				CE0D42701C6A673E006B91B5 /* NSObject+AWSMTLComparisonAdditions.m in Sources */,
+				323AC3731CEA6E2C002EA50B /* NSString+MD5.m in Sources */,
 				CE0D42241C6A673E006B91B5 /* AWSCredentialsProvider.m in Sources */,
 				CE0D42721C6A673E006B91B5 /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */,
 				CE0D424B1C6A673E006B91B5 /* AWSFMDatabaseQueue.m in Sources */,
@@ -6352,6 +6389,7 @@
 				CE0D42931C6A673E006B91B5 /* AWSSTSService.m in Sources */,
 				CE0D42641C6A673E006B91B5 /* AWSEXTRuntimeExtensions.m in Sources */,
 				CE0D423C1C6A673E006B91B5 /* AWSCognitoIdentityResources.m in Sources */,
+				323AC36F1CEA6DC7002EA50B /* FTWDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7323,6 +7361,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		32F016031CEB899D00B97DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32F016041CEB899D00B97DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		CE0D41631C6A66AA006B91B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7429,6 +7481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -7439,6 +7492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.sdk.ios.AWSCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -7447,6 +7501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -7457,6 +7512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.sdk.ios.AWSCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -7636,6 +7692,7 @@
 		CE5604211C6BC8DF00B4E00B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = AWSCognitoUnitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -7646,12 +7703,14 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.AWSCognitoUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 			};
 			name = Debug;
 		};
 		CE5604221C6BC8DF00B4E00B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = AWSCognitoUnitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -7662,6 +7721,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.AWSCognitoUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 			};
 			name = Release;
 		};
@@ -7924,6 +7984,7 @@
 		CE5604A81C6BC97600B4E00B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = AWSS3UnitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -7934,12 +7995,14 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.AWSS3UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 			};
 			name = Debug;
 		};
 		CE5604A91C6BC97600B4E00B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = AWSS3UnitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -7950,6 +8013,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.AWSS3UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 			};
 			name = Release;
 		};
@@ -8704,6 +8768,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -8714,6 +8779,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.sdk.ios.AWSS3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -8722,6 +8788,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -8732,6 +8799,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.sdk.ios.AWSS3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -8739,6 +8807,7 @@
 		CE9DE9D21C6A7C2E0060793F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = AWSS3Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -8749,12 +8818,14 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.AWSS3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 			};
 			name = Debug;
 		};
 		CE9DE9D31C6A7C2E0060793F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = AWSS3Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -8765,6 +8836,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.AWSS3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 			};
 			name = Release;
 		};
@@ -9044,6 +9116,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -9054,6 +9127,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.sdk.ios.AWSCognito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -9062,6 +9136,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -9072,6 +9147,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.sdk.ios.AWSCognito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -9079,6 +9155,7 @@
 		CE9DEAD21C6A7FDF0060793F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = AWSCognitoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -9089,12 +9166,14 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.AWSCognitoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 			};
 			name = Debug;
 		};
 		CE9DEAD31C6A7FDF0060793F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = AWSCognitoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -9105,6 +9184,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.AWSCognitoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 			};
 			name = Release;
 		};
@@ -9387,6 +9467,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		32F016051CEB899D00B97DF8 /* Build configuration list for PBXAggregateTarget "AWSosXNurep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F016031CEB899D00B97DF8 /* Debug */,
+				32F016041CEB899D00B97DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CE0D41571C6A66A9006B91B5 /* Build configuration list for PBXProject "AWSiOSSDKv2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
